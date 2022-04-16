@@ -17,7 +17,7 @@ describe("The contract `Attacker` attacks `Target` by using re-entrancity.", fun
     await attacker.startAttacking(target.address);
     // console.log(await target.getLength());
 
-    // expected the reentrancity to increment the `uint256 myStorage`
+    // expected the reentrancy to increment the `uint256 myStorage`
     // up to the answer (more than 20) 
     expect(await target.getLength()).to.above(0);
   });
@@ -42,7 +42,7 @@ describe("The contract `Attacker` attacks `Target` by using re-entrancity.", fun
     for (var i=1; i<=20; i++) {
       answer += i;
     }
-    // expected the reentrancity to increment the `uint256 myStorage`
+    // expected the reentrancy to increment the `uint256 myStorage`
     // up to the answer (more than 20) which is the maximum supply that
     // this contract can be called.
     expect(await target.getLength()).to.equal(answer);
