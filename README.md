@@ -1,4 +1,4 @@
-# NFT mint exercise 
+# NFT minting, IPFS and Re-entrancy workshop 
 
 `MyArtNFT.sol`
 
