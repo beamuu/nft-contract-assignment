@@ -1,4 +1,4 @@
-# NFT minting, IPFS and Re-entrancy workshop 
+# NFT minting, IPFS and Re-entrancy Attacking workshop 
 
 `MyArtNFT.sol`
 
