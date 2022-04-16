@@ -32,7 +32,7 @@ npm run compile
 ```
 
 #### Running test
-Use for testing the reentrancy attack which will be describe below
+Use for testing the reentrancy attack which has been describe above.
 
 ```sh
 npm run test
