@@ -5,8 +5,6 @@ pragma solidity ^0.8.0;
 
 interface IMask {
 
-  
-
   function mintNFT(uint256 numberOfNfts) external payable;
 
   function totalSupply() external view returns (uint256);

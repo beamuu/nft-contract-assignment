@@ -36,7 +36,7 @@ describe("The contract `Attacker` attacks `Target` by using re-entrancity.", fun
     await attacker.startAttacking(target.address);
     // console.log(await target.getLength());
 
-    // The expected result is the result of the sumation from 1 to 20
+    // The expected result is the result of the summation from 1 to 20
     // which is equal to 210;
     let answer = 0;
     for (var i=1; i<=20; i++) {
