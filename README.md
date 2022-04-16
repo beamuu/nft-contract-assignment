@@ -1,4 +1,6 @@
-# Copy this to your MyArtNFT.sol
+# NFT mint exercise 
+
+`MyArtNFT.sol`
 
 ```sol
 // SPDX-License-Identifier: MIT
@@ -23,4 +25,12 @@ contract MyArtNFT is NFTokenMetadata, Ownable {
   }
  
 }
+```
+
+Change `nftName` and `nftSymbol`. Then deploy to th testnet.
+```sol
+constructor() {
+    nftName = "My Art NFT";
+    nftSymbol = "MART";
+  }
 ```
