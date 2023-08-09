@@ -1,5 +1,5 @@
 # NFT minting, IPFS and Re-entrancy Attacking workshop 
-
+Reentrancy attack reproduction is in the `reentrancy-poc` directory.
 `MyArtNFT.sol`
 
 ```sol
